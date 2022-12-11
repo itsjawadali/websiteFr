@@ -1,0 +1,72 @@
+@media only screen and (max-width: 1060px){
+    .nav_list{
+         flex-direction: column;
+         align-items: center;
+    
+     }
+    .navbar{
+        height: 500px;
+        flex-direction: column;
+        transition: all 0.5s ease-out;
+    }
+    .rightnav{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 0 0;
+    }
+    #search{
+        width: 100%;
+    }
+    .burgerresp{
+        display: block;
+    }
+    .h-navresp{
+        height: 55px;
+    }
+    .v-classresp{
+        opacity: 0;
+    }
+
+    .mainbox{
+        flex-direction: column;
+        width: 100%;
+    }
+    .secondhalf{
+        max-width: 50%;
+    }
+
+
+    .section1{
+        height: auto;
+        padding-top: 50px;
+    }
+    .secLeft{
+        height: auto;
+        flex-direction: column;
+    }
+    .secRight{
+        height: auto;
+        flex-direction: column;
+    }
+    .imgfluid{
+        max-width: 70%;
+        margin: 50px;
+    }
+    .secLeft .imgfluid{
+        max-width: 70%;
+    }
+    .secRight .imgfluid{
+        max-width: 70%;
+    }
+    .paras{
+        padding: 0px;
+    }
+    .secLeft .paras{
+        padding: 0px;
+        max-width: 80%;
+    }
+    .secRight .paras{
+        padding: 0px;
+        max-width: 80%;
+    }
+}
